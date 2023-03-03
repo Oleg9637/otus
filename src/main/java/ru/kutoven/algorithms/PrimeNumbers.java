@@ -5,10 +5,10 @@ import java.util.ArrayList;
 //лгоритм поиска простых чисел с оптимизациями поиска и делением только на простые числа, O(N * Sqrt(N) / Ln (N)).
 
 //класс PrimeNumbers, содержит метод для нахождения всех простых чисел до заданного числа n
-public class primeNumbers {
+public class PrimeNumbers {
     private final ArrayList<Integer> primes = new ArrayList<>();
 
-    public primeNumbers(int n) {
+    public PrimeNumbers(int n) {
         for (int i = 2; i <= n; i++) {
             boolean isPrime = true;
 
@@ -28,7 +28,7 @@ public class primeNumbers {
     public static void main(String[] args) {
         int n = 100;
 
-        primeNumbers primeNumbers = new primeNumbers(n);
+        PrimeNumbers primeNumbers = new PrimeNumbers(n);
 
         System.out.println(primeNumbers.getPrimes());
     }

@@ -1,7 +1,7 @@
 package ru.kutoven.algorithms;
 
 
-public class sieveOfEratosthenesWithMatrix {
+public class SieveOfEratosthenesWithMatrix {
     public static void sieveOfEratosthenes(int n) {
         // вычисляем количество нечётных чисел до n
         int count = (n - 1) / 2 + 1;

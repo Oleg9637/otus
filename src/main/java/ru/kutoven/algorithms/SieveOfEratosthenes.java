@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 //Алгоритм "Решето Эратосфена"
-public class sieveOfEratosthenes {
+public class SieveOfEratosthenes {
     public static List<Integer> lgorithmSieveOfEratosthenes(int n) {
         //создадим массив prime, где prime[i] равно true, если число i является простым,
         //и false, если число i не является простым.

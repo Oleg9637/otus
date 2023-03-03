@@ -3,7 +3,7 @@ package ru.kutoven.algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class sundaramSieveAlgorithms {
+public class SundaramSieveAlgorithms {
     public static List<Integer> sundaramSieve(int n) {
         // Вычисляем k как (n-1)/2, так как мы будем работать только с нечетными числами
         int k = (n - 1) / 2;

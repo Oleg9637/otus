@@ -1,6 +1,6 @@
 package ru.kutoven.algorithms;
 
-public class multiplicationComplicated {
+public class Doublemultiplication {
     public static void main(String[] args) {
         int base = 2;
         int exponent = 10;
@@ -11,12 +11,13 @@ public class multiplicationComplicated {
     public static int power(int base, int exponent) {
         int result = 1;
         while (exponent > 0) {
-            if ((exponent & 1) == 1) {
+            if (exponent % 2 == 1) {
                 result *= base;
             }
             base *= base;
-            exponent >>= 1;
+            exponent /= 2;
         }
         return result;
     }
 }
+
