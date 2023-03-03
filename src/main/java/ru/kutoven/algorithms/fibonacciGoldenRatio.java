@@ -1,6 +1,6 @@
 package ru.kutoven.algorithms;
 
-public class FibonacciGoldenRatio {
+public class fibonacciGoldenRatio {
     public static void main(String[] args) {
         int n = 10;
         for (int i = 0; i < n; i++) {

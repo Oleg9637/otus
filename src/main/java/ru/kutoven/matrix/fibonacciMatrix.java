@@ -1,6 +1,6 @@
 package ru.kutoven.matrix;
 
-public class FibonacciMatrix {
+public class fibonacciMatrix {
 
     public static void main(String[] args) {
         int n = 10;
@@ -14,7 +14,7 @@ public class FibonacciMatrix {
         if (F == null || F.length != 2 || F[0].length != 2 || n < 0) {
             throw new IllegalArgumentException("Invalid arguments");
         }
-        int[][] result = MatrixExponentiation.matrixPower(F, n);
+        int[][] result = matrixExponentiation.matrixPower(F, n);
         return result[0][1];
     }
 }

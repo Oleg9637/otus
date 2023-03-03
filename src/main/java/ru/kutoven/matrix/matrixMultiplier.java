@@ -1,6 +1,6 @@
 package ru.kutoven.matrix;
 // класс для умножения матриц
-public class MatrixMultiplier {
+public class matrixMultiplier {
 
     public static int[][] multiply(int[][] A, int[][] B) throws IllegalArgumentException {
         int m = A.length;
